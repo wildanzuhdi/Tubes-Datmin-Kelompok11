@@ -51,21 +51,23 @@ html, body, [class*="css"] {
 }
 
 .result-positive {
-    background: linear-gradient(135deg, #fef2f2, #fee2e2);
-    border: 2px solid #f87171;
+    background: linear-gradient(135deg, #dc2626, #ef4444);
+    border: none;
     border-radius: 12px;
     padding: 1.5rem;
     text-align: center;
+    color: white !important;
 }
 .result-negative {
-    background: linear-gradient(135deg, #f0fdf4, #dcfce7);
-    border: 2px solid #4ade80;
+    background: linear-gradient(135deg, #16a34a, #22c55e);
+    border: none;
     border-radius: 12px;
     padding: 1.5rem;
     text-align: center;
+    color: white !important;
 }
-.result-title { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.5rem; }
-.result-sub   { font-size: 0.9rem; opacity: 0.75; }
+.result-title { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.5rem; color: white !important; }
+.result-sub   { font-size: 0.9rem; color: rgba(255,255,255,0.85) !important; }
 
 .model-card {
     background: #f9fafb;
